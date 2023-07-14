@@ -14,6 +14,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/spartan/proprietary/odm/bin/hw/vendor.qti.secure_element@1.2-service:$(TARGET_COPY_OUT_ODM)/bin/hw/vendor.qti.secure_element@1.2-service \
     vendor/realme/spartan/proprietary/odm/bin/init.oplus.fingerprints.sh:$(TARGET_COPY_OUT_ODM)/bin/init.oplus.fingerprints.sh \
     vendor/realme/spartan/proprietary/odm/bin/oplus_sensor_fb:$(TARGET_COPY_OUT_ODM)/bin/oplus_sensor_fb \
+    vendor/realme/spartan/proprietary/odm/bin/vl53l1_daemon_main:$(TARGET_COPY_OUT_ODM)/bin/vl53l1_daemon_main \
     vendor/realme/spartan/proprietary/odm/etc/acdbdata/Bluetooth_cal.acdb:$(TARGET_COPY_OUT_ODM)/etc/acdbdata/Bluetooth_cal.acdb \
     vendor/realme/spartan/proprietary/odm/etc/acdbdata/General_cal.acdb:$(TARGET_COPY_OUT_ODM)/etc/acdbdata/General_cal.acdb \
     vendor/realme/spartan/proprietary/odm/etc/acdbdata/Global_cal.acdb:$(TARGET_COPY_OUT_ODM)/etc/acdbdata/Global_cal.acdb \
@@ -1138,9 +1139,11 @@ PRODUCT_COPY_FILES += \
     vendor/realme/spartan/proprietary/odm/lib64/libstfaceunlockocl.so:$(TARGET_COPY_OUT_ODM)/lib64/libstfaceunlockocl.so \
     vendor/realme/spartan/proprietary/odm/lib64/libsymphony-cpu.so:$(TARGET_COPY_OUT_ODM)/lib64/libsymphony-cpu.so \
     vendor/realme/spartan/proprietary/odm/lib64/libsymphonypower.so:$(TARGET_COPY_OUT_ODM)/lib64/libsymphonypower.so \
+    vendor/realme/spartan/proprietary/odm/lib64/libvl53l1_daemon.so:$(TARGET_COPY_OUT_ODM)/lib64/libvl53l1_daemon.so \
     vendor/realme/spartan/proprietary/odm/lib64/libwatermark_photo.so:$(TARGET_COPY_OUT_ODM)/lib64/libwatermark_photo.so \
     vendor/realme/spartan/proprietary/odm/lib64/libwvhidl.so:$(TARGET_COPY_OUT_ODM)/lib64/libwvhidl.so \
     vendor/realme/spartan/proprietary/odm/lib64/mediadrm/libwvdrmengine.so:$(TARGET_COPY_OUT_ODM)/lib64/mediadrm/libwvdrmengine.so \
+    vendor/realme/spartan/proprietary/odm/lib64/sensors.hal.tof.so:$(TARGET_COPY_OUT_ODM)/lib64/sensors.hal.tof.so \
     vendor/realme/spartan/proprietary/odm/lib64/vendor.oplus.hardware.appradio@1.0.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.appradio@1.0.so \
     vendor/realme/spartan/proprietary/odm/lib64/vendor.oplus.hardware.biometrics.fingerprint@2.1.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.biometrics.fingerprint@2.1.so \
     vendor/realme/spartan/proprietary/odm/lib64/vendor.oplus.hardware.cameraextension@1.0-service-impl.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.cameraextension@1.0-service-impl.so \
