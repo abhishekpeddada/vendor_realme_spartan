@@ -46,6 +46,49 @@ cc_prebuilt_library_shared {
 }
 
 android_app_import {
+	name: "MotoSignatureApp",
+	owner: "realme",
+	apk: "proprietary/system/app/MotoSignatureApp/MotoSignatureApp.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+}
+
+android_app_import {
+	name: "MotoDolbyDax3",
+	owner: "realme",
+	apk: "proprietary/system/priv-app/MotoDolbyDax3/MotoDolbyDax3.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
+}
+
+android_app_import {
+	name: "MotorolaSettingsProvider",
+	owner: "realme",
+	apk: "proprietary/system/priv-app/MotorolaSettingsProvider/MotorolaSettingsProvider.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
+}
+
+android_app_import {
+	name: "daxService",
+	owner: "realme",
+	apk: "proprietary/system/priv-app/daxService/daxService.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
+}
+
+android_app_import {
 	name: "CACertService",
 	owner: "realme",
 	apk: "proprietary/vendor/app/CACertService/CACertService.apk",
@@ -197,6 +240,36 @@ dex_import {
 	name: "WfdCommon",
 	owner: "realme",
 	jars: ["proprietary/system/framework/WfdCommon.jar"],
+}
+
+dex_import {
+	name: "com.motorola.frameworks.core.addon",
+	owner: "realme",
+	jars: ["proprietary/system/framework/com.motorola.frameworks.core.addon.jar"],
+}
+
+dex_import {
+	name: "com.motorola.motosignature",
+	owner: "realme",
+	jars: ["proprietary/system/framework/com.motorola.motosignature.jar"],
+}
+
+dex_import {
+	name: "moto-checkin",
+	owner: "realme",
+	jars: ["proprietary/system/framework/moto-checkin.jar"],
+}
+
+dex_import {
+	name: "moto-settings",
+	owner: "realme",
+	jars: ["proprietary/system/framework/moto-settings.jar"],
+}
+
+dex_import {
+	name: "moto",
+	owner: "realme",
+	jars: ["proprietary/system/framework/moto.jar"],
 }
 
 dex_import {
